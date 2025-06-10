@@ -8,16 +8,17 @@ function secondLargest(arr) {
             secondMax = max;
             max = arr[i]
         }
-        else if (arr[i] > secondLargest) {
+        // it will check the duplicates and max 
+        else if (arr[i] > secondMax && arr[i] != max) {
             secondMax = arr[i]
         }
     }
 
-    return secondMax
+    return secondMax === -Infinity ? null : secondMax;
 
 
 }
-let arr = [1, 2, 3, 4, 5, 6, 6, 6, 7, 833, 4443, 323]
+let arr = [1, 2, 3, 4, 5, 6, 6, 6, 7, 5]
 
 let res = secondLargest(arr);
 console.log(res)
