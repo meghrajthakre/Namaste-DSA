@@ -44,6 +44,6 @@ function reverseInPlace(arr) {
     return arr; // optional, original array hi modify ho jata hai
 }
 
-let arr = ['a', 'b', 'c', 'w', 'e'];
+let arr = ['a', 'b', 'c', 'w', 'e' ,'f'];
 reverseInPlace(arr);
 console.log(arr); // ['e', 'w', 'c', 'b', 'a']
