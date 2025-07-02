@@ -47,3 +47,5 @@ function reverseInPlace(arr) {
 let arr = ['a', 'b', 'c', 'w', 'e' ,'f'];
 reverseInPlace(arr);
 console.log(arr); // ['e', 'w', 'c', 'b', 'a']
+
+

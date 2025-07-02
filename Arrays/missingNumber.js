@@ -1,9 +1,9 @@
-function missingNumber(nums) {
-    let n = nums.length;
+function missingNumber(arr) {
+    let n = arr.length;
     let totalSum = n * (n + 1) / 2;
     let sum = 0;
-    for (let i = 0; i < nums.length; i++) {
-        sum += nums[i]
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]
     }
 
     return  totalSum - sum;
